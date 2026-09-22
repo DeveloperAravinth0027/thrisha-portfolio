@@ -39,9 +39,11 @@ export default function Experience() {
                   <span>
                     <MapPin size={15} aria-hidden="true" /> {item.location}
                   </span>
-                  <span>
-                    <Calendar size={15} aria-hidden="true" /> {item.duration}
-                  </span>
+                  {item.current && (
+                    <span>
+                      <Calendar size={15} aria-hidden="true" /> {item.duration}
+                    </span>
+                  )}
                 </div>
                 <ul className="experience__list">
                   {item.responsibilities.map((line) => (

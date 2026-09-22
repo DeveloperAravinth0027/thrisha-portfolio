@@ -8,7 +8,6 @@ export const skillCategories = [
       'Blog & Article Writing',
       'Website Content',
       'Landing Page Content',
-      'Copywriting',
       'Copyediting',
     ],
   },
