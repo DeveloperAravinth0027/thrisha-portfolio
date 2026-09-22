@@ -1,0 +1,45 @@
+export const experience = [
+  {
+    company: 'Home Adda',
+    location: 'Bengaluru',
+    role: 'Content Writer',
+    duration: 'August 2025 – Present',
+    current: true,
+    responsibilities: [
+      'Created B2C website content, blogs & SEO articles.',
+      'Conducted keyword research & search-intent analysis.',
+      'Optimized content for SEO, readability & user engagement.',
+      'Managed internal/external linking & content structure.',
+      'Edited and proofread content for accuracy & brand consistency.',
+    ],
+  },
+  {
+    company: 'Ola Krutrim',
+    location: 'Bengaluru',
+    role: 'AI Linguist Trainee',
+    duration: 'May 2025 – July 2025',
+    current: false,
+    responsibilities: [
+      'Analyzed Tamil & English linguistic data for AI systems.',
+      'Reviewed AI outputs for accuracy, relevance & fluency.',
+      'Created and refined prompts and language responses.',
+      'Identified linguistic errors & contextual inconsistencies.',
+      'Supported improvements in AI-generated language quality.',
+    ],
+  },
+  {
+    company: 'Netaxis IT Solution',
+    location: 'Chennai',
+    role: 'Content Writer',
+    duration: 'September 2022 – March 2023',
+    current: false,
+    website: 'https://www.howtopronounce.com/',
+    responsibilities: [
+      'Created SEO blogs, articles, quizzes & web content.',
+      'Conducted keyword research & content optimization.',
+      'Developed audience-focused content with clear messaging.',
+      'Edited and proofread content for quality & readability.',
+      'Collaborated with teams to deliver engaging SEO content.',
+    ],
+  },
+]
